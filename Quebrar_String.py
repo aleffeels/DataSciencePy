@@ -1,6 +1,4 @@
 #Copiando a String que será utilizada na busca do site PubMed para quebra-la em seguida.
-#O arquivo "arquivo_textoprontoString.txt" tem a sequência completa de plorifenois pronto para busca, mas o site só aceita 200000 caraceteres,
-#e como o arquivo tem 234176, vou dividir ele em 2 pra fazer a busca.
 
 with open('Arquivo_StringCompleta.txt', 'r') as arq: 
     string=arq.read()				#Passando o texto completo pra uma string
